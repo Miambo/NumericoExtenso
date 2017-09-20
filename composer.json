@@ -1,0 +1,23 @@
+{
+    "name": "mozware/numericoextenso",
+    "description": "Uma classe PHP para converter valores numéricos em extenso.",
+
+    "license": ["MIT"],
+    
+    "authors": [
+        {
+            "name": "Saló Miambo",
+            "email": "smiambbo@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mozware\\Numericoextenso\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
